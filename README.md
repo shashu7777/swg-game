@@ -1,10 +1,36 @@
-# swg-game
-simple snake water game
-in which 2 players are there one is user and computer
-user will select the option manually and computer will select the option randomly.
+# 🎮 SWG-Game (Snake Water Gun)
 
-# mongoDB
-mongoDB data base is used for simple sign in and login.
+A simple terminal-based **Snake-Water-Gun** game where:
+- 🧑 Player 1: User (selects choice manually)
+- 🤖 Player 2: Computer (chooses randomly)
 
-# note
-here no ui is created for game it is a simple game .
+---
+
+### 🗝️ Features
+- Classic **Snake-Water-Gun** logic (like Rock-Paper-Scissors)
+- User vs Computer gameplay
+- Simple sign-up and login system using **MongoDB**
+- Terminal/CLI-based game – no UI
+
+---
+
+### 🛠️ Tech Stack
+- Python (or applicable language)
+- MongoDB (for user authentication)
+- Random module (for computer choices)
+
+---
+
+### ⚠️ Note
+- This is a **console-based game** — no UI has been created.
+- Basic user sign-up/login is implemented using **MongoDB**, with no password encryption (for simplicity).
+- Can be extended with GUI or Flask/Django in the future.
+
+---
+
+### 🚀 How to Run
+1. Make sure MongoDB is installed and running
+2. Install dependencies (if any)
+3. Run the game file:
+   ```bash
+   python swg_game.py
